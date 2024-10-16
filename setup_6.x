@@ -125,9 +125,7 @@ ${bold}${NODENAME} is no longer actively supported!${normal}
     ${bold}https://github.com/nodesource/distributions${normal}
 "
         echo
-        echo "Continuing in 20 seconds ..."
-        echo
-        sleep 20
+        echo "SKIPPING DEPRECATION WAIT"
     fi
 }
 
@@ -156,9 +154,7 @@ This script, located at ${bold}https://deb.nodesource.com/setup${normal}, used t
 "
 
         echo
-        echo "Continuing in 20 seconds (press Ctrl-C to abort) ..."
-        echo
-        sleep 20
+        echo "SKIPPING DEPRECATION WAIT"
     fi
 }
 
@@ -203,9 +199,7 @@ repo_deprecation_warning() {
 
         echo
         echo "${cyan}${bold}TO AVOID THIS WAIT MIGRATE THE SCRIPT${normal}"
-        echo "Continuing in 60 seconds (press Ctrl-C to abort) ..."
-        echo
-        sleep 60
+        echo "SKIPPING DEPRECATION WAIT"
 }
 
 setup() {
